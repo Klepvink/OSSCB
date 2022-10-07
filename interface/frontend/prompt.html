@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylesheets/prompt.css">
+  <link rel="stylesheet" href="stylesheets/loading.css">
+
+  <title>Hello from Electron renderer!</title>
+</head>
+
+<body class="">
+  <div class="loader" id="loader" style="display:block;"></div>
+
+  <div id="prompt" style="display:none;"">
+    <form onsubmit="sendData()">
+    <h1 id="question"></h1>
+    <input id="answer" type="text"></input>
+    <button id="submit" type="submit">Submit</button>
+    </form>
+  </div>
+  <script type="text/javascript" src="javascript/prompt_main.js"></script>
+</body>
+
+</html>
