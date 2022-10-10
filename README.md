@@ -9,7 +9,7 @@ The heart of the project is a raspberry pi, running node.js and python. A chess 
 
 Entrypoint of the chessboard is `chessboard.py` in the rootdirectory of the project. 
 
-=== October update
+### October update
 As I am writing this, an order has been placed for all the components I need. Once I received everything I will update the repo again, since I wanna do the rest of my development on a raspberry pi. I am actively checking the repo though, so if you already find something you'd like to share your input on please let me know on twitter, @klepv1nk. I am not a developer by heart, so any feedback is appreciated (also I am looking for a cool name, anarchychess makes me wanna call the project knook but by the time that meme dies I'll regret it, so if you have any ideas also let me know).
 
 If this update is still visible by the time you read this, that means the parts I ordered aren't in yet. I am working on it!
