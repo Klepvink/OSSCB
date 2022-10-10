@@ -40,7 +40,7 @@ const createWindow = () => {
     // Deal with a promptcall, asking the player to enter information
     server.on('prompt', function (err, params, callback) {
         win.loadFile('prompt.html');
-        win.webContents.on("dom-ready", (event) => {
+        win.webContents.once("dom-ready", (event) => {
             win.webContents.send('prompt', { 'data': params });
         });
         // When the data returns from the frontend, pass it through to the chessboard
@@ -50,7 +50,7 @@ const createWindow = () => {
     });
     server.on('update', function (err, params, callback) {
         callback(null, "true")
-        win.loadFile('update.html');
+        win.loadFile('game.html');
         win.webContents.on("dom-ready", (event) => {
             win.webContents.send('prompt', { 'data': params });
         });
