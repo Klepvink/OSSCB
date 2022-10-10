@@ -1,5 +1,5 @@
 # OSSCB
-Open-Source Smart Chessboard is a project with modularity in mind, which allows tinkerers to create their own smart chessboard. The board features automatic piece detection, starting games from custom positions with no hassle, software plugin support, a built-in chess clock, touchscreen controls and automatic recording of your games (in PGN-format). 
+Open-Source Smart Chessboard is a project designed with modularity in mind, which allows tinkerers to create their own smart chessboard. The board features automatic piece detection, starting games from custom positions with no hassle, software plugin support, a built-in chess clock, touchscreen controls and automatic recording of your games (in PGN-format). 
 
 > keep in mind that this repo is not yet complete, and the project is still (both software and hardware wise) in heavy development. For more information about the way this software is developed, read the included readme's available in most directories. If updates are still visible in this README, that means I have not yet finalized the development process. But it's gonna be so cool once it's complete and I can't wait to share it.
 
