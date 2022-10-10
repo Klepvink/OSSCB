@@ -7,7 +7,7 @@ The `/interface` folder contains the first script (`/interface/initialize.py`) t
 ## Useful information for developers
 
 ### Initiating a game
-To create a game, you can call the `chess_game` function from `/game.py` (including a line like `from ...game import chess_game` to import the function should work fine). This function takes (two) opponent names (read `/opponents/readme.md`) as strings. The game will then be created.
+To create a game, you can call the `chess_game` function from `/game.py` (importing `chess_game` from `/game.py` should work fine). This function takes (two) opponent names (read `/opponents/readme.md`) as strings. The game will then be created.
 
 ### Providing a list of opponents
 To provide the user with a list of opponents the player can play against, the file can interpret the `/opponents.json` file located in the root of the project directory (make sure to import the `json` module in the script that is responsible for interpreting that file). 
