@@ -20,12 +20,18 @@ body {
     box-shadow:
         inset 0px 22px 15px -20px #18191A,
         inset 0px -22px 15px -20px #18191A;
+    text-align: center;
 }
 
 .splide__arrow {
     opacity: 0;
     pointer-events: none;
 }
+
+.splide__pagination {
+    display: none;
+}
+
 
 #splide-left {
     background-color: #3A3B3C;
