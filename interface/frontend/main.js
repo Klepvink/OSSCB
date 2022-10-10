@@ -20,12 +20,12 @@ const createWindow = () => {
 
     // Load the first page
     win.loadFile('index.html');
-
+    win.webContents.openDevTools()
     // Hide the cursor, just in case. This application is meant for touchscreens
-    win.webContents.on('dom-ready', (event) => {
-        let css = '* { cursor: none !important; }';
-        win.webContents.insertCSS(css);
-    });
+    ///win.webContents.on('dom-ready', (event) => {
+    ///    let css = '* { cursor: none !important; }';
+    ///    win.webContents.insertCSS(css);
+    ///});
 
     // If a call through XMLRPC is not found, deal with it appropriately
     server.on('NotFound', function (method, params, callback) {

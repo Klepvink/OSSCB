@@ -1,0 +1,44 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper>* {
+    flex: 1 100%;
+}
+
+.splide {
+    flex: 1;
+    box-shadow:
+        inset 0px 22px 15px -20px #18191A,
+        inset 0px -22px 15px -20px #18191A;
+}
+
+.splide__arrow {
+    opacity: 0;
+    pointer-events: none;
+}
+
+#splide-left {
+    background-color: #3A3B3C;
+    color: #E4E6EB;
+    order: 1;
+}
+
+#splide-right {
+    background-color: #E4E6EB;
+    color: #3A3B3C;
+    order: 2;
+}
+
+footer {
+    order: 3;
+}

@@ -5,13 +5,41 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="node_modules/@splidejs/splide/dist/css/splide.min.css">
+  <link rel="stylesheet" href="stylesheets/main.css">
+
   <title>Hello from Electron renderer!</title>
 </head>
 
 <body>
   <script defer type="text/javascript" src="javascript/index_main.js"></script>
-  <h1>Chessboard main menu</h1>
-  <button onclick="CreateGame()">Click me</button>
+  <div class="wrapper">
+    <header id="top">
+      <h1>Chessboard main menu</h1>
+    </header>
+    <section id="splide-left" class="splide" aria-labelledby="carousel-left">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">Slide 01</li>
+          <li class="splide__slide">Slide 02</li>
+          <li class="splide__slide">Slide 03</li>
+        </ul>
+      </div>
+
+    </section>
+    <section id="splide-right" class="splide" aria-labelledby="carousel-right">
+      <div class="splide__track">
+        <ul class="splide__list">
+          <li class="splide__slide">Slide 01</li>
+          <li class="splide__slide">Slide 02</li>
+          <li class="splide__slide">Slide 03</li>
+        </ul>
+      </div>
+    </section>
+    <footer id="bottom">
+      <button onclick="CreateGame()">Play!</button>
+    </footer>
+  </div>
 
 </body>
 
