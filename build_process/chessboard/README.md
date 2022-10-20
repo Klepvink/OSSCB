@@ -4,4 +4,4 @@
 - Put SD-card in pi 0, power the pi using the 5V rail.
 - Disable bluetooth
 > `sudo nano /boot/config.txt`, and add `dtoverlay=disable-bt` to bottom of file. After run `sudo systemctl disable bluetooth.service`. After that, reboot.
-- Install python3 and nodeJS and its dependencies (will probably also pull x11 which is needed for the touchscreen)
+- Install python3 and nodeJS and its dependencies (will probably also pull x11 which is needed for the touchscreen) libatk1.0-dev libatk-bridge2.0-dev libcups2-dev libgtk-3-dev
