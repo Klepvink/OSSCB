@@ -7,6 +7,7 @@ The LED-system described here uses 144 filament LED's which can light up the edg
 For building the LED-system you can use the following components:
 - 18x 104 ceramic condensators
 - 18x TPIC6B595 shift registers
+> The more popular 74HC595's are (as far as I understand) not made to handle the power draw of these specific filament LED's. Unless you want to use other LED's that draw less, I would suggest you use the TPIC6B595's.
 - 144x 54mm 3V filament LED's
 > I opted to go with the 2700K white color due to me using wood, but honestly get whichever color you think would look cool with your material of choice (and share a picture with me on twitter if you do decide to build one, I wanna see what you come up with!)
 - 144x 560 OHM (560R) resistors 
