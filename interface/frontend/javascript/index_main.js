@@ -17,7 +17,7 @@ const boxes = document.querySelectorAll('.splide__list');
 for (const box of boxes) {
     for (var i = 0; i < json.length; i++) {
         var obj = json[i];
-        box.innerHTML += `<li chess-data="${obj['name']}" class="splide__slide"><h3>${obj['name']}</h3></li>`
+        box.innerHTML += `<li chess-data="${obj['name']}" class="splide__slide"><p class="menu-text">${obj['name']}</p></li>`
     }
 }
 

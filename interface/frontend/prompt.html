@@ -16,14 +16,14 @@
   <script src="node_modules/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
 
   <!-- Lottie animation made by Raf Tadevossian. The license seems to be compatible with open source projects. Thank you Raf! https://lottiefiles.com/53887-3d-chess -->
-  <lottie-player src="stylesheets/animations/loading.json" class="loader" id="loader" background="transparent" speed="2"
+  <lottie-player src="stylesheets/animations/loading.json" class="chess-loader" id="loader" background="transparent" speed="2"
     style="width: 500px; height: 500px;" loop autoplay></lottie-player>
 
   <div id="prompt" style="display:none;"">
     <form onsubmit=" sendData()">
-    <h1 id="question"></h1>
-    <input id="answer" type="text"></input>
-    <button class="button is-rounded" id="submit" type="submit">Submit</button>
+    <h1 class="menu-text" id="question"></h1>
+    <input class="input is-rounded" id="answer" type="text"></input>
+    <button class="menu-text button is-rounded" id="submit" type="submit">Submit</button>
     </form>
   </div>
   <script type="text/javascript" src="javascript/prompt_main.js"></script>
