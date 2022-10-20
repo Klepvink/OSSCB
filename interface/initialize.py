@@ -6,7 +6,7 @@ import sys
 import time
 
 # Import the chess_game function
-sys.path.append('../chess_project')
+sys.path.append(os.path.abspath('.'))
 import game
 
 def main():
