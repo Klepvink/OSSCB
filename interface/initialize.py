@@ -31,7 +31,7 @@ def initializeFrontend():
     # Install NPM packages
     pkg.install()
     
-    # Execute electron using pynpm
+    # Execute node-app using pynpm
     print("♟️  Starting frontend...")
     pkg.start(wait=False)
 
